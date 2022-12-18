@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9880ff187bcfc5640990c4a1c8cb78d3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Capellina
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 67c5619b65c907e4daef80ce69ba61fd, type: 3}
+  - {fileID: 12800000, guid: 04be39fc9f07536459b578cae53ddace, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
