@@ -3,6 +3,8 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation(name: 'OVRPlugin', ext:'aar')
+    implementation(name: 'unityandroidpermissions', ext:'aar')
 
 }
 
@@ -16,7 +18,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 22
+        minSdkVersion 23
         targetSdkVersion 30
         ndk {
             abiFilters 'armeabi-v7a'

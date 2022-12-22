@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DropdownButton : MonoBehaviour
 {
+    [SerializeField] private GameObject _verticalLayoutGroup;
     [SerializeField] private GameObject _dropdownItems;
     private bool _isOpen = false;
     
@@ -19,5 +20,8 @@ public class DropdownButton : MonoBehaviour
             _dropdownItems.SetActive(false);
             _isOpen = !_isOpen;
         }
+
+        _verticalLayoutGroup.SetActive(!_verticalLayoutGroup.activeSelf);
+        _verticalLayoutGroup.SetActive(!_verticalLayoutGroup.activeSelf);
     }
 }
